@@ -1,5 +1,55 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f7f5f0;
   color: #252525;
+}
+
+header {
+  padding: 24px 8%;
+  border-bottom: 1px solid #e5e0d7;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin-bottom: 0;
+  color: #716b62;
+}
+
+main {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+main p {
+  color: #716b62;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 26px;
+  border: none;
+  border-radius: 8px;
+  background-color: #303c32;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
